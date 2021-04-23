@@ -1,7 +1,25 @@
 {
-  "name": "root",
+  "name": "fe-lib",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "eslint": "^7.24.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "4.2.4"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "always",
+    "vueIndentScriptAndStyle": true
   }
 }
