@@ -1,12 +1,24 @@
 import React from 'react'
 
-import { Button } from './Button'
+import { Button } from '../button/Button'
 import './header.css'
 
 export interface HeaderProps {
+  /**
+   * 用户信息
+   */
   user?: {}
+  /**
+   * 登录方法
+   */
   onLogin: () => void
+  /**
+   * 退出登录方法
+   */
   onLogout: () => void
+  /**
+   * 创建账号方法
+   */
   onCreateAccount: () => void
 }
 
